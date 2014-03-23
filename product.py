@@ -9,8 +9,8 @@ def product(a, b):
         # if b is negative,
         # change the sign of a, change the sign of b
         # using only the - operator
-        a = a - a - a
-        b = b - b - b
+        a = -a
+        b = -b
 
     if b == 1:
         return a
