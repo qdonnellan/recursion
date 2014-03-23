@@ -12,6 +12,18 @@ class TestRecursiveProductImplementation(unittest.TestCase):
         """
         self.assertEqual(product(2,3), 6)
 
+    def test_one_postive_and_one_negative_integer(self):
+        """
+        product(2, -3) should return -6
+        """
+        self.assertEqual(product(2,-3), -6)
+
+    def test_two_negative_integers(self):
+        """
+        product(-2, -3) should return 6
+        """
+        self.assertEqual(product(-2,-3), 6)
+
     def test_one_float_and_one_int(self):
         """
         product(1.3, 10) should return 13
