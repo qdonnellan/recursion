@@ -5,6 +5,8 @@ def exponential(x, n):
     if n was a negative number, then this would loop (recursively) for ever
     thus, I have added an exception handler for negative values of n
     """
+
+    # here we handle problems with n
     if n < 0:
         raise ValueError("n must not be negative")
 
