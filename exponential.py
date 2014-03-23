@@ -12,6 +12,6 @@ def exponential(x, n):
         # this is the base case, if n==0 return 1
         return 1
     else:
-        # if n != 0, return the result of x times the subsequence recursions
+        # if n != 0, return the result of x times the subsequent recursions
         # For example: 3^7 = 3*(3^6) and so forth
         return x * exponential(x, n-1)
